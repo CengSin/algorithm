@@ -1,7 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a1a44a3-08f2-4770-ae77-fe7c2dd479d1" name="Default Changelist" comment="" />
+    <list default="true" id="1a1a44a3-08f2-4770-ae77-fe7c2dd479d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/ahasuanfa/BookSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/ahasuanfa/BookSortObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/arithmetic/GreatestCommonDivisor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/arithmetic/SelectDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/collections/Immutable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/ArrayAlg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/ArrayAlg2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/PairTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/PairTest2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/ScheduleItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/CallMainThreadMainThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/MultiThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/MultiThreadReadList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/exception_exit/MyThread1_7_3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/Test1Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/Test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/ThreadTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/ThreadTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/ThreadTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/servletTest/ALogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/servletTest/BLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/servletTest/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/sumNum/MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/CountOperate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/InterruptThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/IsAlive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/MythreadIsAlive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/Run1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/z/MyRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/z/MyRunnable_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/z/MyThread_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/z/MyThread_1_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/z/t3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/processApi/ProcessApiTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_100_SameTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_13_RomanToInt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_14_LongestCommonPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_20_validParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_21_MergeTwoSortedLinkedLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_26_RemoveDuplicatesFromSortedArray1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_27_RemoveElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_28_ImplementstrStr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_35_SearchInsertPosition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_36_CountAndSay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_53_MaxSubArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_67_AddBinary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_69_Sqrt_x.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_70_ClimbingStairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_83_RemoveDuplicatesfromSortedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_88_MergeSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Leetcode_15_SumThreeNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/ListNode1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/ListNode_21.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/MyList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_100.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_21.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_26.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_27.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_28.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_35.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_36.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_53.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_58.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_66.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_67.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_69.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_70.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_83.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_88.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_more_quick_67.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/test/testMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ahasuanfa/BookSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/arithmetic/GreatestCommonDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/collections/Immutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/generic_class/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/generic_class/Test/PairTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/generic_class/Test/PairTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/generic_class/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/generic_class/Test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/CallMainThreadMainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/MultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/MultiThreadReadList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/exception_exit/MyThread1_7_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test1Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/keyword/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/servletTest/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/sumNum/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/t6/CountOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/t6/InterruptThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/t6/IsAlive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/t6/Run1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/z/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/z/MyRunnable_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/z/MyThread_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/processApi/ProcessApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_13_RomanToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_14_LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_20_validParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_21_MergeTwoSortedLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_26_RemoveDuplicatesFromSortedArray1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_27_RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_28_ImplementstrStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_35_SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_36_CountAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_53_MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_67_AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_69_Sqrt_x.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_70_ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_83_RemoveDuplicatesfromSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_88_MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/Leetcode_15_SumThreeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/Solution_58.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/Solution_66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/test/testMain.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +176,9 @@
       <find>_21</find>
       <find>ListNode_21</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -118,6 +262,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -131,17 +276,6 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -153,7 +287,7 @@
     <property name="SearchEverywhereHistoryKey" value="ProcessBu&#9;PSI&#9;JAVA://java.lang.ProcessBuilder&#10;Map&#9;PSI&#9;JAVA://java.util.Map&#10;ForkJoinPool&#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Number&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/lang/Number.class&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java&#10;isAlive()&#9;PSI&#9;JAVA://java.lang.Process#isAlive" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554389033985" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554389121860" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="F:/workSpace/hdk-weixin-web" />
     <property name="project.structure.last.edited" value="Project" />
@@ -310,17 +444,17 @@
       <workItem from="1554093387966" duration="2436000" />
       <workItem from="1554126451870" duration="2833000" />
       <workItem from="1554258426271" duration="508000" />
-      <workItem from="1554381303503" duration="7478000" />
+      <workItem from="1554381303503" duration="7761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126017000" />
+    <option name="totallyTimeSpent" value="126300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3605898" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3605898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,9 +468,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3239625" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3230563" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3266399" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
