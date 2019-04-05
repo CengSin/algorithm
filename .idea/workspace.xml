@@ -2,146 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a1a44a3-08f2-4770-ae77-fe7c2dd479d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/ahasuanfa/BookSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/ahasuanfa/BookSortObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/arithmetic/GreatestCommonDivisor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/arithmetic/SelectDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/collections/Immutable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Pair.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/ArrayAlg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/ArrayAlg2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/PairTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/PairTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/ScheduleItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/generic_class/Test/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/CallMainThreadMainThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/MultiThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/MultiThreadReadList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/exception_exit/MyThread1_7_3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/Test1Impl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/Test2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/Test3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/ThreadTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/ThreadTest$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/keyword/ThreadTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/servletTest/ALogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/servletTest/BLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/servletTest/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/sumNum/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/CountOperate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/InterruptThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/IsAlive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/MythreadIsAlive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/Run1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/t6/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/z/MyRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/z/MyRunnable_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/z/MyThread_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/z/MyThread_1_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/multi_thread/z/t3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/processApi/ProcessApiTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_100_SameTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_13_RomanToInt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_14_LongestCommonPrefix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_20_validParentheses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_21_MergeTwoSortedLinkedLists.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_26_RemoveDuplicatesFromSortedArray1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_27_RemoveElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_28_ImplementstrStr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_35_SearchInsertPosition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_36_CountAndSay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_53_MaxSubArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_67_AddBinary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_69_Sqrt_x.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_70_ClimbingStairs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_83_RemoveDuplicatesfromSortedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/LeetCode_88_MergeSortedArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Leetcode_15_SumThreeNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/ListNode1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/ListNode_21.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/MyList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_100.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_20.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_21.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_26.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_27.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_28.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_35.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_36.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_53.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_58.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_66.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_67.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_69.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_70.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_83.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/Solution_more_quick_67.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/simple/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/company/test/testMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ahasuanfa/BookSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/arithmetic/GreatestCommonDivisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/collections/Immutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/generic_class/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/generic_class/Test/PairTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/generic_class/Test/PairTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/generic_class/Test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/generic_class/Test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/CallMainThreadMainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/MultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/MultiThreadReadList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/exception_exit/MyThread1_7_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test1Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/keyword/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/servletTest/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/sumNum/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/t6/CountOperate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/t6/InterruptThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/t6/IsAlive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/t6/Run1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/z/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/z/MyRunnable_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/multi_thread/z/MyThread_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/processApi/ProcessApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_13_RomanToInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_14_LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_20_validParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_21_MergeTwoSortedLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_26_RemoveDuplicatesFromSortedArray1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_27_RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_28_ImplementstrStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_35_SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_36_CountAndSay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_53_MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_67_AddBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_69_Sqrt_x.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_70_ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_83_RemoveDuplicatesfromSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_88_MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/Leetcode_15_SumThreeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/Solution_58.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/Solution_66.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/test/testMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_101_Symmetric_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/datastruct/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,7 +18,39 @@
     <option name="myElementSize" value="176" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_101_Symmetric_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+              <folding>
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/simple/datastruct/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,9 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_13_RomanToInt.java" />
-        <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_14_LongestCommonPrefix.java" />
-        <option value="$PROJECT_DIR$/src/com/company/simple/Leetcode_15_SumThreeNumber.java" />
         <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_20_validParentheses.java" />
         <option value="$PROJECT_DIR$/src/com/company/multi_thread/z/MyThread_1.java" />
         <option value="$PROJECT_DIR$/src/com/company/multi_thread/z/MyRunnable.java" />
@@ -233,7 +126,10 @@
         <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_83_RemoveDuplicatesfromSortedList.java" />
         <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_88_MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/src/com/company/multi_thread/t6/IsAlive.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java" />
+        <option value="$PROJECT_DIR$/src/com/company/simple/datastruct/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_101_Symmetric_Tree.java" />
       </list>
     </option>
   </component>
@@ -269,6 +165,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,18 +173,43 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode_100_SameTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ProcessBu&#9;PSI&#9;JAVA://java.lang.ProcessBuilder&#10;Map&#9;PSI&#9;JAVA://java.util.Map&#10;ForkJoinPool&#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Number&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/lang/Number.class&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java&#10;isAlive()&#9;PSI&#9;JAVA://java.lang.Process#isAlive" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554389121860" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554451502631" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="F:/workSpace/hdk-weixin-web" />
     <property name="project.structure.last.edited" value="Project" />
@@ -307,9 +229,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode_100_SameTree">
+  <component name="RunManager" selected="Application.LeetCode_101_Symmetric_Tree">
     <configuration name="LeetCode_100_SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.simple.LeetCode_100_SameTree" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode_101_Symmetric_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.simple.LeetCode_101_Symmetric_Tree" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -362,6 +297,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_101_Symmetric_Tree" />
         <item itemvalue="Application.LeetCode_100_SameTree" />
         <item itemvalue="Application.LeetCode_88_MergeSortedArray" />
         <item itemvalue="Application.LeetCode_83_RemoveDuplicatesfromSortedList" />
@@ -444,17 +380,19 @@
       <workItem from="1554093387966" duration="2436000" />
       <workItem from="1554126451870" duration="2833000" />
       <workItem from="1554258426271" duration="508000" />
-      <workItem from="1554381303503" duration="7761000" />
+      <workItem from="1554381303503" duration="8526000" />
+      <workItem from="1554449952914" duration="1545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126300000" />
+    <option name="totallyTimeSpent" value="128610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3605898" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3605898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -470,7 +408,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3230563" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3230563" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3266399" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -540,9 +478,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Boolean.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/stream/Collectors.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/generic_class/Test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1220">
@@ -831,17 +766,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/collections/Immutable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="135" selection-start-line="11" selection-start-column="135" selection-end-line="11" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/simple/datastruct/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_101_Symmetric_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+          <folding>
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

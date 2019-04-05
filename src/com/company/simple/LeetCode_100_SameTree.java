@@ -1,5 +1,8 @@
 package com.company.simple;
 
+
+import com.company.simple.datastruct.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,18 +44,6 @@ package com.company.simple;
  * <p>
  * 输出: false
  */
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x, TreeNode left, TreeNode right) {
-        val = x;
-        this.left = left;
-        this.right = right;
-    }
-}
 
 class Solution_100 {
 
