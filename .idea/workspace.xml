@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a1a44a3-08f2-4770-ae77-fe7c2dd479d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_101_Symmetric_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/simple/datastruct/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,39 +15,7 @@
     <option name="myElementSize" value="176" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_101_Symmetric_Tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
-              <folding>
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/simple/datastruct/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -176,28 +141,7 @@
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode_100_SameTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,13 +153,13 @@
     <property name="SearchEverywhereHistoryKey" value="ProcessBu&#9;PSI&#9;JAVA://java.lang.ProcessBuilder&#10;Map&#9;PSI&#9;JAVA://java.util.Map&#10;ForkJoinPool&#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Number&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/lang/Number.class&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java&#10;isAlive()&#9;PSI&#9;JAVA://java.lang.Process#isAlive" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554451622509" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554451844463" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="F:/workSpace/hdk-weixin-web" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -381,18 +325,17 @@
       <workItem from="1554126451870" duration="2833000" />
       <workItem from="1554258426271" duration="508000" />
       <workItem from="1554381303503" duration="8526000" />
-      <workItem from="1554449952914" duration="1545000" />
+      <workItem from="1554449952914" duration="1885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128610000" />
+    <option name="totallyTimeSpent" value="128950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3605898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3605898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,7 +344,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37349397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37265417" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4176707" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,13 +421,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/generic_class/Test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1220">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/generic_class/Test/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -793,19 +729,23 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_101_Symmetric_Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+        <state relative-caret-position="305">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <element signature="e#535#536#0" expanded="true" />
             <element signature="e#567#568#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173" />
       </provider>
     </entry>
   </component>
