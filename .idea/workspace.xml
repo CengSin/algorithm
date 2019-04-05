@@ -209,7 +209,7 @@
     <property name="SearchEverywhereHistoryKey" value="ProcessBu&#9;PSI&#9;JAVA://java.lang.ProcessBuilder&#10;Map&#9;PSI&#9;JAVA://java.util.Map&#10;ForkJoinPool&#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Number&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/lang/Number.class&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java&#10;isAlive()&#9;PSI&#9;JAVA://java.lang.Process#isAlive" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554451502631" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554451622509" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="F:/workSpace/hdk-weixin-web" />
     <property name="project.structure.last.edited" value="Project" />
