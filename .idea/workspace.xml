@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a1a44a3-08f2-4770-ae77-fe7c2dd479d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_104_MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/simple/LeetCode_107_BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,7 +17,20 @@
     <option name="myElementSize" value="176" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_107_BinaryTreeLevelOrderTraversalII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,9 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_20_validParentheses.java" />
-        <option value="$PROJECT_DIR$/src/com/company/multi_thread/z/MyThread_1.java" />
-        <option value="$PROJECT_DIR$/src/com/company/multi_thread/z/MyRunnable.java" />
         <option value="$PROJECT_DIR$/src/com/company/multi_thread/z/MyRunnable_1.java" />
         <option value="$PROJECT_DIR$/src/com/company/multi_thread/servletTest/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/com/company/multi_thread/sumNum/MyThread.java" />
@@ -95,6 +107,9 @@
         <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_100_SameTree.java" />
         <option value="$PROJECT_DIR$/src/com/company/simple/datastruct/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_101_Symmetric_Tree.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_104_MaximumDepthOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/company/simple/LeetCode_107_BinaryTreeLevelOrderTraversalII.java" />
       </list>
     </option>
   </component>
@@ -129,8 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,7 +156,20 @@
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,7 +181,7 @@
     <property name="SearchEverywhereHistoryKey" value="ProcessBu&#9;PSI&#9;JAVA://java.lang.ProcessBuilder&#10;Map&#9;PSI&#9;JAVA://java.util.Map&#10;ForkJoinPool&#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Number&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/lang/Number.class&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java&#10;isAlive()&#9;PSI&#9;JAVA://java.lang.Process#isAlive" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554451844463" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554726705880" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="F:/workSpace/hdk-weixin-web" />
     <property name="project.structure.last.edited" value="Project" />
@@ -173,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode_101_Symmetric_Tree">
+  <component name="RunManager" selected="Application.LeetCode_107_BinaryTreeLevelOrderTraversalII">
     <configuration name="LeetCode_100_SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.simple.LeetCode_100_SameTree" />
       <module name="leetcode" />
@@ -200,8 +228,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_70_ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.simple.LeetCode_70_ClimbingStairs" />
+    <configuration name="LeetCode_104_MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.simple.LeetCode_104_MaximumDepthOfBinaryTree" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -213,8 +241,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_83_RemoveDuplicatesfromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.simple.LeetCode_83_RemoveDuplicatesfromSortedList" />
+    <configuration name="LeetCode_107_BinaryTreeLevelOrderTraversalII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.simple.LeetCode_107_BinaryTreeLevelOrderTraversalII" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -241,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_107_BinaryTreeLevelOrderTraversalII" />
+        <item itemvalue="Application.LeetCode_104_MaximumDepthOfBinaryTree" />
         <item itemvalue="Application.LeetCode_101_Symmetric_Tree" />
         <item itemvalue="Application.LeetCode_100_SameTree" />
         <item itemvalue="Application.LeetCode_88_MergeSortedArray" />
-        <item itemvalue="Application.LeetCode_83_RemoveDuplicatesfromSortedList" />
-        <item itemvalue="Application.LeetCode_70_ClimbingStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -326,16 +354,19 @@
       <workItem from="1554258426271" duration="508000" />
       <workItem from="1554381303503" duration="8526000" />
       <workItem from="1554449952914" duration="1885000" />
+      <workItem from="1554451861053" duration="144000" />
+      <workItem from="1554721637084" duration="68000" />
+      <workItem from="1554721833436" duration="5419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128950000" />
+    <option name="totallyTimeSpent" value="134581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3605898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -345,14 +376,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37265417" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4176707" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41689008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3230563" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32262382" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3266399" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -421,38 +452,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/generic_class/Test/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/multi_thread/t6/InterruptThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Contended.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/multi_thread/keyword/Test1Impl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -746,6 +745,44 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_104_MaximumDepthOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1524">
+          <caret line="188" column="54" lean-forward="true" selection-start-line="188" selection-start-column="31" selection-end-line="188" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/simple/LeetCode_107_BinaryTreeLevelOrderTraversalII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
