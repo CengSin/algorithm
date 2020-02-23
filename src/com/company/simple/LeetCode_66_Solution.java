@@ -20,7 +20,7 @@ import java.util.Arrays;
  * 输出: [4,3,2,2]
  * 解释: 输入数组表示数字 4321。
  */
-public class Solution_66 {
+public class LeetCode_66_Solution {
 
     private int[] move(int[] digits, int len) {
         int[] newArray = new int[len+1];
@@ -48,7 +48,7 @@ public class Solution_66 {
     }
 
     public static void main(String[] args) {
-        Solution_66 s = new Solution_66();
+        LeetCode_66_Solution s = new LeetCode_66_Solution();
         int[] test1 = new int[]{1,2,3};
         int[] test2 = new int[]{0};
         int[] test3 = new int[]{9,9,9};

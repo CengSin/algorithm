@@ -16,7 +16,7 @@ import java.util.Objects;
  * 输出: 5
  */
 
-public class Solution_58 {
+public class LeetCode_58_Solution {
 
     public int lengthOfLastWord(String s) {
         int result = 0;
@@ -33,7 +33,7 @@ public class Solution_58 {
     }
 
     public static void main(String[] args) {
-        Solution_58 s = new Solution_58();
+        LeetCode_58_Solution s = new LeetCode_58_Solution();
         System.out.println(s.lengthOfLastWord(" "));
         System.out.println(s.lengthOfLastWord(" Hello World"));
         System.out.println(s.lengthOfLastWord(null));
