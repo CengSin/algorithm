@@ -1,7 +1,4 @@
 ./idea
-
-./out/
-
 *.class
-
+out/production/leetcode
 *.iml
