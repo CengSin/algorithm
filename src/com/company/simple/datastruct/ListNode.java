@@ -2,8 +2,8 @@ package com.company.simple.datastruct;
 
 public class ListNode {
 
-    private int val;
-    private ListNode next;
+    public int val;
+    public ListNode next;
     public ListNode(int x) {
         val = x;
         next = null;
@@ -28,5 +28,13 @@ public class ListNode {
 
     public void setNext(ListNode next) {
         this.next = next;
+    }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "val=" + val +
+                ", next=" + next +
+                '}';
     }
 }
