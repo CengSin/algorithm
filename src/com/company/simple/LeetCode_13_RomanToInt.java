@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class LeetCode_13_RomanToInt {
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        LeetCode_13_Solution solution = new LeetCode_13_Solution();
         System.out.println(solution.romanToInt("MMMCMXCIX"));
         System.out.println(solution.romanToInt("I"));
         System.out.println(solution.romanToInt("IV"));
@@ -17,7 +17,7 @@ public class LeetCode_13_RomanToInt {
     }
 }
 
-class Solution {
+class LeetCode_13_Solution {
 
     private final Integer THOUSANDS = 1000;
     private final Integer HUNDRED = 100;
