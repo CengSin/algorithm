@@ -6,7 +6,7 @@ package com.company.simple;
  * @date: 2020/3/8
  */
 
-class LeetCode_42_Solution {
+class LeetCode_42_LCOF_Solution {
     public int maxSubArray(int[] nums) {
         int[] dp = new int[nums.length];
 
@@ -22,7 +22,7 @@ class LeetCode_42_Solution {
 public class LeetCode_42_LCOF {
 
     public static void main(String[] args) {
-        LeetCode_42_Solution solution = new LeetCode_42_Solution();
+        LeetCode_42_LCOF_Solution solution = new LeetCode_42_LCOF_Solution();
         System.out.println(solution.maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}));
     }
 
