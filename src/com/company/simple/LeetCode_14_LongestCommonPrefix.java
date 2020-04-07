@@ -1,14 +1,21 @@
 package com.company.simple;
 
-import java.util.Arrays;
-import java.util.Objects;
-
 /**
  * 最长公共前缀
  */
 class Solution_14 {
     public String longestCommonPrefix(String[] strs) {
-        return "";
+        if (strs == null || strs.length == 0 || strs[0].length() == 0) return "";
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < strs[0].length(); i++) {
+            sb.append(strs[0].charAt(i));
+            for (int j = 0; j < strs.length; j++) {
+                if (!strs[j].startsWith(sb.toString())) {
+                    return sb.substring(0, sb.length() - 1);
+                }
+            }
+        }
+        return sb.toString();
     }
 
 }

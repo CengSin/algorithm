@@ -11,15 +11,18 @@ import java.util.Arrays;
 class LeetCode_01_07_Solution {
 
     public void rotate(int[][] matrix) {
-        int[][] rotate = new int[matrix.length][matrix.length];
-        for (int i = 0; i < rotate.length; i++) {
-            for (int j = 0; j < rotate[i].length; j++) {
-                rotate[i][j] = matrix[j][i];
+        int row = matrix.length;
+        int col = matrix[0].length;
+        int[][] dest = new int[row][col];
+        for (int i = 0, newCol = matrix.length - 1; i < row; i++, newCol --) {
+            for (int j = 0; j < col; j++) {
+                dest[j][newCol] = matrix[i][j];
             }
         }
-        for (int i = 0; i < rotate.length; i++) {
-            for (int j = 0; j < rotate[i].length; j++) {
-                matrix[i][j] = rotate[i][j];
+
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                matrix[i][j] = dest[i][j];
             }
         }
     }
