@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class LeetCode_13_RomanToInt {
 
     public static void main(String[] args) {
-        LeetCode_13_Solution solution = new LeetCode_13_Solution();
+        LeetCode_13_SolutionNew solution = new LeetCode_13_SolutionNew();
         System.out.println(solution.romanToInt("MMMCMXCIX"));
         System.out.println(solution.romanToInt("I"));
         System.out.println(solution.romanToInt("IV"));
