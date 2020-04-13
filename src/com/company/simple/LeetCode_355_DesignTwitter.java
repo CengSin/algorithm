@@ -10,7 +10,7 @@ class Blog {
 
 class User {
     int id;
-    List<Integer> followers;
+    Set<Integer> followers;
     List<Blog> blogs;
 }
 
@@ -48,42 +48,37 @@ class Twitter {
 
         if (users.containsKey(userId)) {
             User user = users.get(userId);
-            List<Integer> followers = user.followers;
+            int len = 10;
+            for (int i = 0; i < len && i < user.blogs.size(); i++) {
+                res.add(user.blogs.get(i));
+            }
+            Set<Integer> followers = user.followers;
             if (followers.size() > 0) {
                 for (Integer id : followers) {
-                    if (users.containsKey(id)) {
+                    if (id != userId && users.containsKey(id)) {
                         User follower = users.get(id);
-                        // 按照times排序 times降序，合并两个有序链表
-                        int i = 0, j = 0, cnt = 0;
-                        while (cnt < 10 && i < user.blogs.size() && j < follower.blogs.size()) {
-                            if (user.blogs.get(i).time > follower.blogs.get(j).time) {
-                                res.add(user.blogs.get(i));
+                        int i = 0, j = 0;
+                        while (i < len && j < follower.blogs.size()) {
+                            if (i < res.size() && res.get(i).time < follower.blogs.get(j).time) {
+                                res.add(i, follower.blogs.get(j));
+                                if (res.size() > len) {
+                                    res.remove(res.size() - 1);
+                                }
+                                i++;
+                                j++;
+                            } else if (i < res.size() && res.get(i).time >= follower.blogs.get(j).time) {
                                 i++;
                             } else {
-                                res.add(follower.blogs.get(j));
+                                res.add(i, follower.blogs.get(j));
+                                i++;
                                 j++;
                             }
-                            cnt++;
-                        }
-                        while (cnt < 10 && j < follower.blogs.size()) {
-                            res.add(follower.blogs.get(j));
-                            j++;
-                            cnt++;
-                        }
-                        while (cnt < 10 && i < user.blogs.size()) {
-                            res.add(user.blogs.get(i));
-                            i++;
-                            cnt++;
                         }
                     }
                 }
-            } else {
-                for (int i = 0; i < 10 && i < user.blogs.size(); i++) {
-                    res.add(user.blogs.get(i));
-                }
             }
         }
-        return res.stream().map(i -> i.id).distinct().collect(Collectors.toList());
+        return res.stream().map(i -> i.id).collect(Collectors.toList());
     }
 
     /**
@@ -95,13 +90,13 @@ class Twitter {
         users.get(followerId).followers.add(followeeId);
     }
 
-    private void regiserUser(int followerId) {
-        if (!users.containsKey(followerId)) {
+    private void regiserUser(int userId) {
+        if (!users.containsKey(userId)) {
             User user = new User();
-            users.put(followerId, user);
-            user.id = followerId;
+            users.put(userId, user);
+            user.id = userId;
             user.blogs = new LinkedList<>();
-            user.followers = new LinkedList<>();
+            user.followers = new HashSet<>();
         }
     }
 
@@ -111,7 +106,7 @@ class Twitter {
     public void unfollow(int followerId, int followeeId) {
         regiserUser(followerId);
         regiserUser(followeeId);
-        List<Integer> followers = users.get(followerId).followers;
+        Set<Integer> followers = users.get(followerId).followers;
         if (followers.contains(followeeId)) {
             followers.removeIf(integer -> integer == followeeId);
         }
@@ -122,28 +117,57 @@ public class LeetCode_355_DesignTwitter {
 
     public static void main(String[] args) {
         Twitter twitter = new Twitter();
+        test1(twitter);
+    }
 
-// 用户1发送了一条新推文 (用户id = 1, 推文id = 5).
+    private static void test2(Twitter twitter) {
+        // ["Twitter","postTweet","follow","follow","getNewsFeed","postTweet","getNewsFeed","getNewsFeed","unfollow","getNewsFeed","getNewsFeed","unfollow","getNewsFeed","getNewsFeed"]
+        // [[],[1,5],[1,2],[2,1],[2],[2,6],[1],[2],[2,1],[1],[2],[1,2],[1],[2]]
         twitter.postTweet(1, 5);
-
-// 用户1的获取推文应当返回一个列表，其中包含一个id为5的推文.
-        System.out.println(twitter.getNewsFeed(1));
-
-// 用户1关注了用户2.
         twitter.follow(1, 2);
-
-// 用户2发送了一个新推文 (推文id = 6).
+        twitter.follow(2, 1);
+        System.out.println(twitter.getNewsFeed(2));
         twitter.postTweet(2, 6);
-
-// 用户1的获取推文应当返回一个列表，其中包含两个推文，id分别为 -> [6, 5].
-// 推文id6应当在推文id5之前，因为它是在5之后发送的.
         System.out.println(twitter.getNewsFeed(1));
-
-// 用户1取消关注了用户2.
+        System.out.println(twitter.getNewsFeed(2));
+        twitter.unfollow(2, 1);
+        System.out.println(twitter.getNewsFeed(1));
+        System.out.println(twitter.getNewsFeed(2));
         twitter.unfollow(1, 2);
+        System.out.println(twitter.getNewsFeed(1));
+        System.out.println(twitter.getNewsFeed(2));
+//        [null,null,null,null,[5],null,[6,5],[6,5],null,[6,5],[6],null,[5],[6]]
+    }
 
-// 用户1的获取推文应当返回一个列表，其中包含一个id为5的推文.
-// 因为用户1已经不再关注用户2.
+    private static void test1(Twitter twitter) {
+        //["Twitter","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","postTweet","getNewsFeed","follow","getNewsFeed","unfollow","getNewsFeed"]
+        //[[],[1,5],[2,3],[1,101],[2,13],[2,10],[1,2],[1,94],[2,505],[1,333],[2,22],[1,11],[1,205],[2,203],[1,201],[2,213],[1,200],[2,202],[1,204],[2,208],[2,233],[1,222],[2,211],[1],[1,2],[1],[1,2],[1]]
+        twitter.postTweet(1, 5);
+        twitter.postTweet(2, 3);
+        twitter.postTweet(1, 101);
+        twitter.postTweet(2, 13);
+        twitter.postTweet(2, 10);
+        twitter.postTweet(1, 2);
+        twitter.postTweet(1, 94);
+        twitter.postTweet(2, 505);
+        twitter.postTweet(1, 333);
+        twitter.postTweet(2, 22);
+        twitter.postTweet(1, 11);
+        twitter.postTweet(1, 205);
+        twitter.postTweet(2, 203);
+        twitter.postTweet(1, 201);
+        twitter.postTweet(2, 213);
+        twitter.postTweet(1, 200);
+        twitter.postTweet(2, 202);
+        twitter.postTweet(1, 204);
+        twitter.postTweet(2, 208);
+        twitter.postTweet(2, 233);
+        twitter.postTweet(1, 222);
+        twitter.postTweet(2, 211);
+        System.out.println(twitter.getNewsFeed(1));
+        twitter.follow(1, 2);
+        System.out.println(twitter.getNewsFeed(1));
+        twitter.unfollow(1, 2);
         System.out.println(twitter.getNewsFeed(1));
     }
 
