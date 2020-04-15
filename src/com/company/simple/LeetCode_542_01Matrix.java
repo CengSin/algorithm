@@ -1,16 +1,55 @@
 package com.company.simple;
 
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * @description: 01矩阵
  * @author: 15262
  * @date: 2020/4/6
  */
+
+class LeetCode_542_Solution_New {
+
+    public int[][] updateMatrix(int[][] matrix) {
+        int[][] dp = new int[matrix.length][matrix[0].length];
+
+        for (int i = 0; i < dp.length; i++) {
+            Arrays.fill(dp[i], Integer.MAX_VALUE - 10000);
+        }
+
+        // 正序遍历二维数组并检查其左上两个方向中和距离0的值 + 1
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (matrix[i][j] == 0) {
+                    dp[i][j] = 0;
+                } else {
+                    if (i > 0) {
+                        dp[i][j] = Math.min(dp[i][j], dp[i - 1][j] + 1);
+                    }
+                    if (j > 0) {
+                        dp[i][j] = Math.min(dp[i][j], dp[i][j - 1] + 1);
+                    }
+                }
+            }
+        }
+
+        // 倒序遍历，寻找二维数组中每个元素的右下方距离0最近的点
+        for (int i = matrix.length - 1; i >= 0; i--) {
+            for (int j = matrix[i].length - 1; j >= 0; j--) {
+                if (i < matrix.length - 1) {
+                    dp[i][j] = Math.min(dp[i][j], dp[i + 1][j] + 1);
+                }
+                if (j < matrix[i].length - 1) {
+                    dp[i][j] = Math.min(dp[i][j], dp[i][j + 1] + 1);
+                }
+            }
+        }
+
+        return dp;
+    }
+
+}
 
 class LeetCode_542_Solution_Dp {
 
@@ -117,7 +156,7 @@ class LeetCode_542_Solution {
 public class LeetCode_542_01Matrix {
 
     public static void main(String[] args) {
-        LeetCode_542_Solution solution = new LeetCode_542_Solution();
+        LeetCode_542_Solution_New solution = new LeetCode_542_Solution_New();
         LeetCode_542_Solution_Dp solution2 = new LeetCode_542_Solution_Dp();
         solution.updateMatrix(new int[][]{{1, 0, 1, 1, 0, 0, 1, 0, 0, 1}, {0, 1, 1, 0, 1, 0, 1, 0, 1, 1}, {0, 0, 1, 0, 1, 0, 0, 1, 0, 0}, {1, 0, 1, 0, 1, 1, 1, 1, 1, 1}, {0, 1, 0, 1, 1, 0, 0, 0, 0, 1}, {0, 0, 1, 0, 1, 1, 1, 0, 1, 0}, {0, 1, 0, 1, 0, 1, 0, 0, 1, 1}, {1, 0, 0, 0, 1, 1, 1, 1, 0, 1}, {1, 1, 1, 1, 1, 1, 1, 0, 1, 0}, {1, 1, 1, 1, 0, 1, 0, 0, 1, 1}});
         solution2.updateMatrix(new int[][]{{1, 1, 0, 0, 1, 0, 0, 1, 1, 0}, {1, 0, 0, 1, 0, 1, 1, 1, 1, 1}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 0}, {0, 1, 1, 1, 0, 1, 1, 1, 1, 1}, {0, 0, 1, 1, 1, 1, 1, 1, 1, 0}, {1, 1, 1, 1, 1, 1, 0, 1, 1, 1}, {0, 1, 1, 1, 1, 1, 1, 0, 0, 1}, {1, 1, 1, 1, 1, 0, 0, 1, 1, 1}, {0, 1, 0, 1, 1, 0, 1, 1, 1, 1}, {1, 1, 1, 0, 1, 0, 1, 1, 1, 1}});
