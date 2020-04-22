@@ -1,4 +1,4 @@
-package lintcode;
+package lintcode.chapter2;
 
 import com.company.simple.datastruct.DirectedGraphNode;
 

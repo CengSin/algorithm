@@ -1,4 +1,4 @@
-package lintcode;
+package lintcode.chapter1;
 
 class LintCode_415_Solution_New {
     /**

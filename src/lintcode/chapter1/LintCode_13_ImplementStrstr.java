@@ -1,4 +1,4 @@
-package lintcode;
+package lintcode.chapter1;
 
 /**
  * 字符串查找

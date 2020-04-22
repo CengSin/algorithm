@@ -1,4 +1,4 @@
-package lintcode;
+package lintcode.chapter1;
 
 /**
  * 背向双指针 + 回文串的特性（如果s[i + 1, j-1]是回文串且s[i] == s[j], 则s[i, j]也是回文串）

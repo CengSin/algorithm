@@ -1,4 +1,4 @@
-package lintcode;
+package lintcode.chapter1;
 
 import java.util.HashMap;
 import java.util.Set;
