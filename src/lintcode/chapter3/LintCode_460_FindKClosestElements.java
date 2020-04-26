@@ -1,4 +1,4 @@
-package lintcode;
+package lintcode.chapter3;
 
 import java.util.Arrays;
 
