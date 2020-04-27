@@ -12,7 +12,7 @@ import java.util.List;
  *
  * https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-leetcode-solution-2/
  */
-class Solution {
+class LeetCode_46_Solution {
     public List<List<Integer>> permute(int[] nums) {
         // 判断输入是否合法
         int len = nums.length;
