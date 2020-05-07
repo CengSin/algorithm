@@ -14,11 +14,11 @@ import com.company.simple.datastruct.TreeNode;
  * }
  */
 
-class ResultType {
+class LintCode_95_ResultType {
     public boolean isBST;
     public TreeNode minNode, maxNode;
 
-    public ResultType(boolean isBST) {
+    public LintCode_95_ResultType(boolean isBST) {
         this.isBST = isBST;
         this.minNode = null;
         this.maxNode = null;
@@ -55,26 +55,26 @@ class LintCode_95_Solution {
      * 分治法
      * @return
      */
-    private ResultType divideConquer(TreeNode root) {
-        if (root == null) return new ResultType(true);
+    private LintCode_95_ResultType divideConquer(TreeNode root) {
+        if (root == null) return new LintCode_95_ResultType(true);
 
-        ResultType left = divideConquer(root.left);
-        ResultType right = divideConquer(root.right);
+        LintCode_95_ResultType left = divideConquer(root.left);
+        LintCode_95_ResultType right = divideConquer(root.right);
 
         if (!left.isBST || !right.isBST) {
-            return new ResultType(false);
+            return new LintCode_95_ResultType(false);
         }
 
         if (left.maxNode != null && left.maxNode.val >= root.val) {
-            return new ResultType(false);
+            return new LintCode_95_ResultType(false);
         }
 
         if (right.minNode != null && right.minNode.val <= root.val) {
-            return new ResultType(false);
+            return new LintCode_95_ResultType(false);
         }
 
         // isBST
-        ResultType result = new ResultType(true);
+        LintCode_95_ResultType result = new LintCode_95_ResultType(true);
         result.minNode = left.minNode != null ? left.minNode : root;
         result.maxNode = right.maxNode != null ? right.maxNode : root;
         return result;

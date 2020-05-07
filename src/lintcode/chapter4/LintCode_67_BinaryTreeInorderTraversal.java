@@ -5,7 +5,7 @@ import com.company.simple.datastruct.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class LintCOde_67_Solution {
     /**
      * @param root: A Tree
      * @return: Inorder in ArrayList which contains node values.
