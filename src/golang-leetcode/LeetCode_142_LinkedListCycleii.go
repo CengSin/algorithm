@@ -1,6 +1,25 @@
 package main
 
 func detectCycle(head *ListNode) *ListNode {
+	return mapCheckDupEle(head)
+}
+
+// 通过map检查原指针是否存在
+func mapCheckDupEle(head *ListNode) *ListNode {
+	visit := map[*ListNode]struct{}{}
+
+	for head != nil {
+		if _, ok := visit[head]; ok {
+			return head
+		}
+		visit[head] = struct{}{}
+		head = head.Next
+	}
+	return nil
+}
+
+// fastSlowPoint 快慢指针
+func fastSlowPoint(head *ListNode) *ListNode {
 	if head == nil {
 		return nil
 	}
