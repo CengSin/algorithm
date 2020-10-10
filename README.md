@@ -1,4 +1,55 @@
-# not cal me when you need me 
+## myself algorithm playground 
 
-![:)](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554399297906&di=c1893ce770c5c7ed7e365a9144686415&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201603%2F01%2F20160301233118_x2tra.jpeg)
+author: CengSin
+
+Email: zephone0724@gmail.com
+
+blog: [notcallme.cn](http://notcallme.cn)
+
+lang: Java, Golang
+
+[Java Algorithm Dir](src/com/company/simple)
+
+[Golang Algorithm Dir](src/golang-leetcode)
+
+Known DataStructure & Algorithm:
+
+- ArrayList
+- LinkedList
+- Queue
+- Stack
+- HashMap
+- HashSet
+- Tree
+- BinaryTree
+- BinarySearchTree
+- BST/DST
+- Topology
+
+- Sort
+- SlowFastPoint
+- …… 
+
+Web Framework: 
+
+- Java:
+    - Spring 
+    - Mybatis
+    - Jedis/Lettuce
+
+- Golang:
+    - Echo
+    - Gorm
+    - go-redis
+    
+- Used DB:
+    - MongoDB
+    - MySQL
+    - ORACLE
+    - ArangoDB
+    - ElasticSearch
+
+- Used MessageQueue:
+    - RocketMQ
+    - MetaQ
 
