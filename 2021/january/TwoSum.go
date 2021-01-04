@@ -1,4 +1,4 @@
-package january
+package main
 
 func twoSum(nums []int, target int) []int {
 	visit := make(map[int]int)

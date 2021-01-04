@@ -1,4 +1,4 @@
-package january
+package main
 
 // 种花问题，相邻的土地不能种两朵花
 func canPlaceFlowers(flowerbed []int, n int) bool {
