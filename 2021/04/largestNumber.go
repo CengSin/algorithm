@@ -14,7 +14,7 @@ func largestNumber(nums []int) string {
 	}
 
 	sort.Slice(numStrs, func(i, j int) bool {
-		return numStrs[i]+numStrs[j] >= numStrs[j]+numStrs[i]
+		return numStrs[i]+numStrs[j] >= numStrs[j]+numStrs[i] // 将字符串从大到小排序
 	})
 
 	result := strings.Join(numStrs, "")
