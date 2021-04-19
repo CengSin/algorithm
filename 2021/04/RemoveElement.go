@@ -1,6 +1,8 @@
 package main
 
-import ()
+import (
+	"fmt"
+)
 
 func removeElement(nums []int, val int) int {
 	left := 0
