@@ -54,7 +54,7 @@ func minimumTimeRequired(jobs []int, k int) int {
 		r += v
 	}
 	return l + sort.Search(r-l, func(limit int) bool {
-		limit += l
+		limit += l // 最小值就是l
 		workloads := make([]int, k)
 		var backtrack func(int) bool
 		backtrack = func(idx int) bool {
