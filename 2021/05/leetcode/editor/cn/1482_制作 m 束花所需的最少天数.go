@@ -74,40 +74,37 @@ import (
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func minDays(bloomDay []int, m int, k int) int {
-
 	if len(bloomDay) < m*k {
 		return -1
 	}
 
-	minDays, maxDays := math.MaxInt32, 0
-
-	for _, day := range bloomDay {
-		if minDays > day {
-			minDays = day
+	minD, maxD := math.MaxInt32, 0
+	for _, d := range bloomDay {
+		if minD > d {
+			minD = d
 		}
-
-		if maxDays < day {
-			maxDays = day
+		if maxD < d {
+			maxD = d
 		}
 	}
 
-	return minDays + sort.Search(maxDays-minDays, func(days int) bool {
-		days += minDays
-		flowers, bouquets := 0, 0
+	return minD + sort.Search(maxD-minD, func(days int) bool {
+		days += minD
+
+		flowers, bouqets := 0, 0
 		for _, d := range bloomDay {
 			if d > days {
 				flowers = 0
 			} else {
 				flowers++
 				if flowers == k {
-					bouquets++
+					bouqets++
 					flowers = 0
 				}
 			}
 		}
-		return bouquets >= m
+		return bouqets >= m
 	})
-
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
