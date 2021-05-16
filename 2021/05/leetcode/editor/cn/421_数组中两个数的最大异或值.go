@@ -58,7 +58,7 @@ package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
-const hight = 30
+const hight = 30 // 0 <= nums[i] <= 2^31 - 1
 
 type trie struct {
 	left, right *trie
