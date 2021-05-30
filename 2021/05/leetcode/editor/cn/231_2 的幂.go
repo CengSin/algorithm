@@ -63,7 +63,7 @@ func isPowerOfTwo(n int) bool {
 		return false
 	}
 
-	if n&(n-1) == 0 {
+	if n&(n-1) == 0 { // 011111 & 100000 == 0
 		return true
 	}
 	return false
