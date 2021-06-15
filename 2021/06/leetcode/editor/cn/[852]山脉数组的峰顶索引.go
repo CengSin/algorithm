@@ -70,12 +70,21 @@ package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func peakIndexInMountainArray(arr []int) int {
-	for i := range arr {
-		if i > 0 && i < len(arr) - 1 {
-			if arr[i - 1] < arr[i] && arr[i] > arr[i + 1] {
-				return i
-			}
+	start, end := 0, len(arr) - 1
+	for start + 1 < end {
+		mid := start + (end - start) / 2
+		if arr[mid] > arr[mid - 1] && arr[mid] > arr[mid + 1] {
+			return mid
 		}
+		if arr[mid] > arr[mid - 1] && arr[mid + 1] >= arr[mid] {
+			start = mid
+		} else {
+			end = mid
+		}
+	}
+	mid := start + (end - start) / 2
+	if arr[mid] > arr[mid - 1] && arr[mid] > arr[mid + 1] {
+		return mid
 	}
 	return 0
 }
