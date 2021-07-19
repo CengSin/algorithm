@@ -85,13 +85,6 @@ func minAbsoluteSumDiff(nums1 []int, nums2 []int) int {
 	return (sum - maxn) % (1e9 + 7)
 }
 
-func max(a int, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
 func abs(num int) int {
 	if num < 0 {
 		return -num
