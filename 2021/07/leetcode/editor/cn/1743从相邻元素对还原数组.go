@@ -66,18 +66,18 @@ func restoreArray(adjacentPairs [][]int) []int {
 	ans := make([]int, n)
 	for e, adj := range g {
 		if len(adj) == 1 {
-			ans[0] = e // 拿到起点
+			ans[0] = e // 拿到起点(起点和终点肯定只有一个相邻点，而且结果中不要求数组顺序。所以找到在adjacentPairs中相邻点只有一个的起点，就可以设置为起点)
 			break
 		}
 	}
 
-	ans[1] = g[ans[0]][0]
+	ans[1] = g[ans[0]][0] // 第二个元素为第一个元素的关联点
 	for i := 2; i < n; i++ {
-		adj := g[ans[i-1]]
-		if ans[i-2] == adj[0] {
+		adj := g[ans[i-1]]      // 遍历中的点，拿到第i-1所有的相邻点
+		if ans[i-2] == adj[0] { // 如果下标为i-2点等于i-1的第一个关联点，那么第二个点就是他的下一个相邻点
 			ans[i] = adj[1]
 		} else {
-			ans[i] = adj[0]
+			ans[i] = adj[0] // 否则，第一个节点就是下标为i-1节点的相邻点
 		}
 	}
 
