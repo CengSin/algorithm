@@ -1,7 +1,6 @@
 package main
 
 func findIntegers(n int) (ans int) {
-	//isValid 判断num的二进制是否包含连续的1
 	k, dp := 32, [32]int{1, 2}
 	for i := 2; i < k; i++ {
 		dp[i] = dp[i-1] + dp[i-2]
