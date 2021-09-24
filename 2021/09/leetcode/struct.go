@@ -18,3 +18,10 @@ func ConstructLinkedList(nums []int) *ListNode {
 	}
 	return head
 }
+
+type Node struct {
+	Val   int
+	Prev  *Node
+	Next  *Node
+	Child *Node
+}
