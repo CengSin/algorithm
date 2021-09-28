@@ -25,3 +25,9 @@ type Node struct {
 	Next  *Node
 	Child *Node
 }
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
