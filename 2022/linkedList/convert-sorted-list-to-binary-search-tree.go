@@ -1,15 +1,17 @@
-package main
+package linkedList
 
-func sortedListToBST(head *ListNode) *TreeNode {
+import "2022_leetcode/tree"
+
+func sortedListToBST(head *ListNode) *tree.TreeNode {
 	return buildBST(head, nil)
 }
 
-func buildBST(left, right *ListNode) *TreeNode {
+func buildBST(left, right *ListNode) *tree.TreeNode {
 	if left == right {
 		return nil
 	}
 	mid := getMidNode(left, right)
-	root := &TreeNode{mid.Val, buildBST(left, mid), buildBST(mid.Next, right)}
+	root := &tree.TreeNode{mid.Val, buildBST(left, mid), buildBST(mid.Next, right)}
 	return root
 }
 

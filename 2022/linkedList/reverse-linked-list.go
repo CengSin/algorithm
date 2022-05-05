@@ -1,4 +1,4 @@
-package main
+package linkedList
 
 // reverseBetween 反转链表head中位置在[left, right]之内的所有节点，并返回反转后链表的头节点。
 func reverseBetween(head *ListNode, left int, right int) *ListNode {
