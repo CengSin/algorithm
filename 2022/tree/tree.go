@@ -5,6 +5,20 @@ import (
 	"strconv"
 )
 
+// Node2 Definition for a Node that have more than one children node.
+type Node2 struct {
+	Val      int
+	Children []*Node2
+}
+
+// Node definition for a Node
+type Node struct {
+	Val   int
+	Left  *Node
+	Right *Node
+	Next  *Node
+}
+
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
