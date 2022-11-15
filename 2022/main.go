@@ -6,14 +6,6 @@ import (
 )
 
 func main() {
-	//nodes := strings.Split("5,4,8,11,null,13,4,7,2,null,null,5,1", ",")
-	//if len(nodes) == 0 {
-	//	return
-	//}
-	//root := &tree.TreeNode{}
-	//tree.Construct(root, 0, len(nodes), nodes)
-	//tree.PathSum(root, 22)
-	//tree.PrintTree(root)
-
-	fmt.Println(daily.ReorderSpaces("a"))
+	units := daily.MaximumUnits([][]int{{1, 3}, {5, 5}, {2, 5}, {4, 2}, {4, 1}, {3, 1}, {2, 2}, {1, 3}, {2, 5}, {3, 2}}, 35)
+	fmt.Println(units)
 }
