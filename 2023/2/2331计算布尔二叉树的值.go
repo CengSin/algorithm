@@ -1,5 +1,11 @@
 package main
 
+type TreeNode struct {
+	Left  *TreeNode
+	Right *TreeNode
+	Val   int
+}
+
 func evaluateTree(root *TreeNode) bool {
 	switch root.Val {
 	case 0:
